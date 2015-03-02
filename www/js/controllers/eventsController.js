@@ -1,4 +1,4 @@
-starterControllers.controller('EventsController', function($scope, Event) {
+urtribeControllers.controller('EventsController', function($scope, Event) {
     $scope.currentEvent = Event.build({name:'MyEvent'});
     $scope.overview = $scope.currentEvent.getEventOverview();
 

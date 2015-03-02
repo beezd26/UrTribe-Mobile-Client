@@ -1,6 +1,6 @@
-var starterControllers = angular.module('starter.controllers', ['ui.bootstrap', 'starter.models'])
+var urtribeControllers = angular.module('urtribe.controllers', ['ui.bootstrap', 'urtribe.models'])
 
-starterControllers.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+urtribeControllers.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
   // Form data for the login modal
   $scope.loginData = {};
 
@@ -49,7 +49,7 @@ starterControllers.controller('AppCtrl', function($scope, $ionicModal, $timeout)
   };
 })
 
-starterControllers.controller('PlaylistsCtrl', function($scope) {
+urtribeControllers.controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
     { title: 'Reggae', id: 1 },
     { title: 'Chill', id: 2 },
@@ -60,5 +60,5 @@ starterControllers.controller('PlaylistsCtrl', function($scope) {
   ];
 })
 
-starterControllers.controller('PlaylistCtrl', function($scope, $stateParams) {
+urtribeControllers.controller('PlaylistCtrl', function($scope, $stateParams) {
 })

@@ -1,5 +1,5 @@
-var starterModels = angular.module('starter.models', [])
-starterModels.factory('Event', function () {
+var urtribeModels = angular.module('urtribe.models', [])
+urtribeModels.factory('Event', function () {
       /**
      * Constructor, with class name
      */
