@@ -33,3 +33,41 @@ body
   float: right;
   margin-top: 8px;
 }
+
+.block-dropdown button
+{
+  height: 47px;
+}
+
+.form-section-header
+{
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px;
+  color: #44becc;
+}
+
+:-webkit-input-placeholder { /* WebKit browsers */
+    color:    #44becc;
+}
+:-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #44becc;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #44becc;
+}
+
+.input-label
+{
+  color: #AAAAAA;
+  font-size: 14px;
+  text-align: left;
+}
+
+.item-stacked-label .input-label
+{
+  text-align: left;
+  display:block;
+}
