@@ -48,16 +48,7 @@ body
   color: #44becc;
 }
 
-:-webkit-input-placeholder { /* WebKit browsers */
-    color:    #44becc;
-}
-:-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #44becc;
-   opacity:  1;
-}
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-   color:    #44becc;
-}
+
 
 .input-label
 {
